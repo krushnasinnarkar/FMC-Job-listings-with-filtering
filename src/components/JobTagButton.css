@@ -1,0 +1,20 @@
+.job-tag-btn {
+    line-height: 1.25;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: var(--fw-bold);
+    padding: 0.4375em 0.5625rem 0.3125rem 0.5625rem;
+    color: var(--clr-desaturated-dark-cyan);
+    border-radius: var(--rounded);
+    background-color: var(--bg-filter);
+    transition: 200ms ease;
+    letter-spacing: -0.01rem;
+}
+
+@media (hover: hover) {
+    .job-tag-btn:hover {
+        background-color: var(--clr-desaturated-dark-cyan);
+        color: var(--bg-filter);
+    }
+}

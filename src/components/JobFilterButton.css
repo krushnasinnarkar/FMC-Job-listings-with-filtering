@@ -1,0 +1,30 @@
+.job-filter-btn {
+    font-size: 1rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-desaturated-dark-cyan);
+    border-radius: var(--rounded);
+    background-color: var(--bg-filter);
+    transition: 200ms ease;
+    overflow: hidden;
+    display: flex;
+}
+
+.job-filter-btn span {
+    padding: 0.5625rem 0.625rem 0.4375rem 0.5rem;
+    line-height: 1;
+}
+
+.job-filter-btn button {
+    background-color: var(--clr-desaturated-dark-cyan);
+    height: 100%;
+    padding: 0 0.5625rem;
+    border: none;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+
+@media (hover: hover) {
+    .job-filter-btn > button:hover {
+        background-color: var(--clr-very-dark-grayish-cyan);
+    }
+}
